@@ -28,7 +28,7 @@ public class DemoQaElementsTest {
 	@Order(1)
 	public void verifyElementsAndTextBoxTab() {
 
-		Selenide.open("https://demoqa.com/");
+		open("https://demoqa.com/");
 		WebDriverRunner.getWebDriver().manage().window().maximize();
 		
 		$("img[src='/images/Toolsqa.jpg']").should(exist); // Verify the ToolsQA image
@@ -59,7 +59,7 @@ public class DemoQaElementsTest {
 	@Order(2)
 	public void webTables() {
 
-		Selenide.open("https://demoqa.com/webtables");
+		open("https://demoqa.com/webtables");
 		$(".main-header").shouldHave(text("Web Tables")).should(appear); // Validate the header
 
 		SelenideElement webTable = $(".rt-table");
@@ -96,7 +96,7 @@ public class DemoQaElementsTest {
 	@Order(3)
 	public void formFillTest() {
 
-		Selenide.open("https://demoqa.com/automation-practice-form");
+		open("https://demoqa.com/automation-practice-form");
 		WebDriverRunner.getWebDriver().manage().window().maximize();
 		$(".main-header").shouldHave(text("Practice Form"));
 
