@@ -1,0 +1,5 @@
+com\test\project\selenide_demo\seperate_tests\DemoQaElementsTest.class
+com\test\project\selenide_demo\seperate_tests\SampleTest.class
+com\test\project\selenide_demo\seperate_tests\StudentRegistrationForm.class
+com\test\project\selenide_demo\LoginTest.class
+com\test\project\selenide_demo\seperate_tests\HandlingWebTables.class
