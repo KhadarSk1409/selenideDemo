@@ -38,7 +38,7 @@ public class StudentRegistrationForm {
 		$("#dateOfBirthInput").setValue(dateToEnter);
 		$(byText("Subjects")).should(exist).hover().click();
 		
-		$("label[for='hobbies-checkbox-3']").click();
+		//$("label[for='hobbies-checkbox-3']").click();
 		
 		String file = "myPic.jpeg";
 		$("#uploadPicture").uploadFromClasspath(file);
